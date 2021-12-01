@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.links a {
+    @apply text-gray-600 hover:text-gray-800
+}
