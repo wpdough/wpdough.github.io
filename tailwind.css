@@ -32247,12 +32247,18 @@ video {
 
 .links a {
   --tw-text-opacity: 1;
-  color: rgba(75, 85, 99, var(--tw-text-opacity))
+  color: rgba(107, 114, 128, var(--tw-text-opacity))
 }
 
 .links a:hover {
-  --tw-text-opacity: 1;
-  color: rgba(31, 41, 55, var(--tw-text-opacity));
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #ec4899;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(236, 72, 153, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), #ef4444, var(--tw-gradient-to, rgba(239, 68, 68, 0));
+  --tw-gradient-to: #f59e0b;
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent
 }
 
 @media (min-width: 640px) {
